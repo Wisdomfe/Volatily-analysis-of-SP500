@@ -3,7 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-load data/SP500
+load SP500
 % note: SP500 series ('SP') starts Jan 03 and ends Dec 10
 ret = diff(log(SP));   
 dates = dates_indices(2:end);  % discard first date and rename
