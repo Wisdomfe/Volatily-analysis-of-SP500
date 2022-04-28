@@ -62,7 +62,7 @@ legend('|R_t|','EWMA vol (0.94)','EWMA vol (0.98)')
 % plot the estimates of the historical volatility (window:250 days) and EWMA volatility 
 % (lambda= 0:94) from Jan 07 to Dec 10, together with the corresponding values of the VIX index
 
-load data/VIX      % load VIX data
+load VIX      % load VIX data
 % note: VIX series starts Jan 90 and ends Sep 14, so 
 % 1. it has to be reduced to Jan 07 - Dec 10
 % 2. in the range Jan 07 - Dec 10 it must be sinchronized with histvol and
